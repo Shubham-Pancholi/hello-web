@@ -1,5 +1,0 @@
-HTTP
-HTML
-CSS
-JS
-GIT
