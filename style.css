@@ -53,8 +53,8 @@ nav {
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  justify-content: center;
+  border-bottom: 1px solid #e5e7eb;
 }
 
 nav a {
