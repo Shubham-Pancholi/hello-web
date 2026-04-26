@@ -70,6 +70,18 @@ nav a:hover {
   background: #dbeafe;
 }
 
+.grid {
+  display: grid;
+  gap: 16px;
+}
+
+@media (min-width: 800px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+}
+
 /* Form: stack fields vertically */
 form {
   background: white;
