@@ -82,6 +82,12 @@ nav a:hover {
   }
 }
 
+input:focus,
+textarea:focus {
+  outline: 3px solid #93c5fd;
+  border-color: #2563eb;
+}
+
 /* Form: stack fields vertically */
 form {
   background: white;
