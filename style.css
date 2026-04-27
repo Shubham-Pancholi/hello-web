@@ -25,6 +25,20 @@ html {
   background: var(--bg);
 }
 
+.site-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.site-header h1 {margin: 0; }
+
+.logo {
+  object-fit: cover;
+  flex: 0 0 auto;
+}
+
 body {
   margin: 0;
 }
@@ -58,10 +72,6 @@ section {
   margin: 16px 0;
 }
 
-h2 {
-  margin-top: 0;
-}
-
 nav {
   display: flex;
   gap: 12px;
@@ -93,9 +103,9 @@ nav a:hover {
   gap: var(--space-3);
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
   .grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: start;
   }
   h1 { font-size: 36px;}
