@@ -9,6 +9,7 @@
 
     <body>
         <header>
+            <img src="/flower.jpg" alt="if not received at source" width="151" height="213">
             <h1>Page Header</h1>
         </header>
 
@@ -25,35 +26,53 @@
                     <p>P text in section link1</p>
                 </section>
 
-                <section id="link2">
+                <section id="link2" class="card">
                     <h3>H3 text</h3>
                     <h4>H4 text</h4>
                 </section>
 
-                <section id="link3">
+                <section id="link3" class="card">
                     <h5>H5 text</h5>
                     <h6>H6 text {h1 to h6}</h6>
                 </section>
 
-                <form>
-                    <label>Label Only</label>
-                    <label for="email">Email</label>
-                    <input id="email" name="email" type="email">
+                <section id="form">
+                    <h2>Form</h2>
+                    
+                    <form>
+                        <fieldset>
+                            <legend>Legend of Fieldset</legend>
+                            
+                            <label>Label Only</label>
+                            <label for="email">Email</label>
+                            <input id="email" name="email" type="email">
 
-                    <label>5 types of input: text, email, password, number, date</label>
+                            <label>5 types of input: text, email, password, number, date</label>
 
-                    <label for="text">Textarea Element - id, name, rows</label>
-                    <textarea id="text" name="text" rows="2"></textarea>
+                            <label for="text">Textarea Element - id, name, rows</label>
+                            <textarea id="text" name="text" rows="2"></textarea>
 
-                    <button type="submit">Button with type submit</button>
-
-                </form>
+                            <button type="submit">Button with type submit</button>
+                        </fieldset>
+                    </form>
+                </section>
             </div>
+
+            <section id="list">
+                <h2>List Example</h2>
+                <ul>
+                    <li>List Element 1</li>
+                    <li>List Element 2</li>
+                </ul>
+            </section>
         </main>
 
         <footer>
             <p>This is footer</p>
             <small>Small text, @ 2026 blah blah cpyright stuff</small>
+            <a href="https://developer.mozilla.org/" target="_blank" rel="noreferrer">
+                MDN Web Docs
+            </a>
         </footer>
     </body>
 </html>
