@@ -25,6 +25,14 @@ html {
   background: var(--bg);
 }
 
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
 .site-header {
   display: flex;
   align-items: center;
@@ -34,9 +42,22 @@ html {
 
 .site-header h1 {margin: 0; }
 
+.site-title h1 {margin: 0;}
+
+.site-title p {
+  margin: 4px 0 0;
+  color: var(--muted, #6b7280);
+}
+
 .logo {
   object-fit: cover;
   flex: 0 0 auto;
+}
+
+.site-nav {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
 }
 
 body {
