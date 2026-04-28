@@ -33,6 +33,12 @@ html {
   flex-wrap: wrap;
 }
 
+.site-nav {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
 .site-header {
   display: flex;
   align-items: center;
@@ -52,12 +58,6 @@ html {
 .logo {
   object-fit: cover;
   flex: 0 0 auto;
-}
-
-.site-nav {
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
 }
 
 body {
@@ -122,15 +122,8 @@ nav a:hover {
 .grid {
   display: grid;
   gap: var(--space-3);
-}
-
-@media (min-width: 1000px) {
-  .grid {
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: start;
-  }
-  h1 { font-size: 36px;}
-  header, nav, main, footer { padding: var(--space-4); }
+  grid-template-columns: repeat(auto-fit, minmax(220px, 260px));
+  justify-content: space-evenly;
 }
 
 input:focus,
