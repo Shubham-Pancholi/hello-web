@@ -60,6 +60,12 @@ header, nav, main, footer {
   padding: var(--space-3);
 }
 
+.logo-class figcaption {
+  margin-top: var(--space-1);
+  color: var(--muted);
+  font-size: var(--space-2);
+}
+
 /* Components Part */
 
 h1 {
