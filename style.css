@@ -17,6 +17,23 @@
   --muted: #6b7280;
   --background: #f9fafb;
   --card: #ffffff;
+
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --text: #f9fafb;
+  --muted: #9ca3af;
+  --background: #0b1220;
+  --card: #111827;
+  --border: #243044;
+}
+
+:root[data-theme="dark"] nav a {
+  background: #0b2a55;
+  border-color: #1d4ed8;
+  color: #bfdbfe;
 }
 
 html {
